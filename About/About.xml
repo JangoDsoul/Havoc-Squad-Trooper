@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+	<ModMetaData>
+		<name>[JDS] Havoc Squad Trooper</name>
+		<author>JangoD'soul</author>
+		<supportedVersions>
+			<li>1.0</li>
+			<li>1.1</li>
+			<li>1.2</li>			
+		</supportedVersions>
+		<packageId>JangoDsoul.StarWars.HSTAS</packageId>
+		<description>...</description>
+		<modDependencies>
+			<li>
+				<displayName>[JDS] The Forge - Anvil</displayName>			
+				<packageId>JangoDsoul.TheForge.Anvil</packageId>
+				<steamWorkshopUrl>steam://url/CommunityFilePage/1967561500</steamWorkshopUrl>
+			</li>
+		</modDependencies>
+<!--	<loadBefore>
+			<li>ModderName.ModSeries.ModName</li>
+		</loadBefore> -->	
+		<loadAfter>
+			<li>JangoDsoul.TheForge.Anvil</li>
+		</loadAfter>
+	</ModMetaData>
